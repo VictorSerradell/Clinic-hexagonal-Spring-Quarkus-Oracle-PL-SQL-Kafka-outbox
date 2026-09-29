@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: clinic-config
+data:
+  DB_URL: jdbc:oracle:thin:@//oracle:1521/FREEPDB1
+  KAFKA_BOOTSTRAP: kafka:9092
